@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1536 600" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4A90E2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5BA3F5;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Sky Background -->
+  <rect width="1536" height="600" fill="url(#skyGradient)"/>
+  
+  <!-- Clouds -->
+  <ellipse cx="200" cy="100" rx="60" ry="30" fill="#B8D4E8" opacity="0.6"/>
+  <ellipse cx="250" cy="110" rx="70" ry="35" fill="#B8D4E8" opacity="0.6"/>
+  <ellipse cx="800" cy="80" rx="80" ry="40" fill="#B8D4E8" opacity="0.5"/>
+  <ellipse cx="1200" cy="120" rx="65" ry="32" fill="#B8D4E8" opacity="0.6"/>
+  
+  <!-- Buildings -->
+  <rect x="600" y="250" width="100" height="200" fill="#8B7355" rx="5"/>
+  <rect x="720" y="200" width="120" height="250" fill="#A67C52" rx="5"/>
+  <rect x="860" y="220" width="90" height="230" fill="#C9A17A" rx="5"/>
+  <rect x="970" y="180" width="140" height="270" fill="#6B5D4F" rx="5"/>
+  <rect x="1130" y="240" width="100" height="210" fill="#D4A574" rx="5"/>
+  
+  <!-- Building Windows -->
+  <g fill="#FFC947" opacity="0.8">
+    <rect x="615" y="270" width="20" height="25"/>
+    <rect x="645" y="270" width="20" height="25"/>
+    <rect x="615" y="310" width="20" height="25"/>
+    <rect x="645" y="310" width="20" height="25"/>
+    <rect x="615" y="350" width="20" height="25"/>
+    <rect x="645" y="350" width="20" height="25"/>
+    
+    <rect x="745" y="220" width="25" height="30"/>
+    <rect x="785" y="220" width="25" height="30"/>
+    <rect x="745" y="270" width="25" height="30"/>
+    <rect x="785" y="270" width="25" height="30"/>
+    <rect x="745" y="320" width="25" height="30"/>
+    <rect x="785" y="320" width="25" height="30"/>
+  </g>
+  
+  <!-- Road -->
+  <rect x="0" y="450" width="1536" height="150" fill="#4A4A4A"/>
+  
+  <!-- Road Markings -->
+  <g stroke="#FFF" stroke-width="3" stroke-dasharray="30,20">
+    <line x1="0" y1="525" x2="1536" y2="525"/>
+  </g>
+  
+  <!-- Parking Lines -->
+  <g stroke="#FFD700" stroke-width="2" opacity="0.7">
+    <line x1="100" y1="480" x2="150" y2="540"/>
+    <line x1="170" y1="480" x2="220" y2="540"/>
+    <line x1="240" y1="480" x2="290" y2="540"/>
+    <line x1="310" y1="480" x2="360" y2="540"/>
+    <line x1="380" y1="480" x2="430" y2="540"/>
+  </g>
+  
+  <!-- Cars -->
+  <!-- Red Car -->
+  <g>
+    <rect x="120" y="490" width="70" height="40" fill="#E74C3C" rx="8"/>
+    <rect x="130" y="485" width="50" height="25" fill="#C0392B" rx="5"/>
+    <circle cx="135" cy="530" r="8" fill="#2C3E50"/>
+    <circle cx="175" cy="530" r="8" fill="#2C3E50"/>
+    <rect x="140" y="495" width="15" height="12" fill="#85C1E9" opacity="0.7"/>
+    <rect x="160" y="495" width="15" height="12" fill="#85C1E9" opacity="0.7"/>
+  </g>
+  
+  <!-- Blue Car -->
+  <g>
+    <rect x="260" y="490" width="70" height="40" fill="#3498DB" rx="8"/>
+    <rect x="270" y="485" width="50" height="25" fill="#2980B9" rx="5"/>
+    <circle cx="275" cy="530" r="8" fill="#2C3E50"/>
+    <circle cx="315" cy="530" r="8" fill="#2C3E50"/>
+    <rect x="280" y="495" width="15" height="12" fill="#85C1E9" opacity="0.7"/>
+    <rect x="300" y="495" width="15" height="12" fill="#85C1E9" opacity="0.7"/>
+  </g>
+  
+  <!-- Trees -->
+  <g>
+    <!-- Tree 1 -->
+    <rect x="1350" y="380" width="20" height="70" fill="#8B4513"/>
+    <circle cx="1360" cy="360" r="50" fill="#2ECC71"/>
+    <circle cx="1380" cy="340" r="45" fill="#27AE60"/>
+    <circle cx="1340" cy="340" r="45" fill="#52BE80"/>
+    
+    <!-- Tree 2 -->
+    <rect x="50" y="360" width="25" height="90" fill="#8B4513"/>
+    <circle cx="62" cy="340" r="60" fill="#2ECC71"/>
+    <circle cx="85" cy="315" r="55" fill="#27AE60"/>
+    <circle cx="40" cy="315" r="55" fill="#52BE80"/>
+  </g>
+  
+  <!-- Parking Sign -->
+  <g>
+    <rect x="30" y="420" width="50" height="50" fill="#2E86DE" rx="5"/>
+    <text x="55" y="455" font-family="Arial" font-size="35" font-weight="bold" fill="white" text-anchor="middle">P</text>
+    <rect x="52" y="470" width="6" height="60" fill="#7F8C8D"/>
+  </g>
+  
+  <!-- Traffic Barrier -->
+  <g>
+    <rect x="450" y="510" width="120" height="10" fill="#E74C3C"/>
+    <rect x="460" y="495" width="10" height="25" fill="#7F8C8D"/>
+    <rect x="550" y="495" width="10" height="25" fill="#7F8C8D"/>
+    <g stroke="#FFF" stroke-width="8">
+      <line x1="450" y1="515" x2="490" y2="515"/>
+      <line x1="510" y1="515" x2="550" y2="515"/>
+    </g>
+  </g>
+  
+  <!-- Parking Attendant -->
+  <g transform="translate(390, 460)">
+    <circle cx="20" cy="10" r="12" fill="#FDBCB4"/>
+    <rect x="12" y="22" width="16" height="30" fill="#F39C12" rx="2"/>
+    <rect x="8" y="28" width="24" height="20" fill="#E67E22" rx="2"/>
+    <line x1="12" y1="30" x2="5" y2="42" stroke="#FDBCB4" stroke-width="3"/>
+    <line x1="28" y1="30" x2="35" y2="42" stroke="#FDBCB4" stroke-width="3"/>
+    <rect x="14" y="52" width="5" height="18" fill="#34495E"/>
+    <rect x="21" y="52" width="5" height="18" fill="#34495E"/>
+  </g>
+</svg>
